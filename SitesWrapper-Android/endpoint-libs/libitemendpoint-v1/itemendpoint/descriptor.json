@@ -1,13 +1,13 @@
 {
   "files": [
     {
-      "downloadUrl": "/downloads/itemendpoint/v1/20140812033353/java/1.18.0-rc/urlisit.com-itemendpoint-v1-20140812033353-java-1.18.0-rc-sources.jar", 
-      "path": "urlisit.com-itemendpoint-v1-20140812033353-java-1.18.0-rc-sources.jar", 
+      "downloadUrl": "/downloads/itemendpoint/v1/20140812212828/java/1.18.0-rc/urlisit.com-itemendpoint-v1-20140812212828-java-1.18.0-rc-sources.jar", 
+      "path": "urlisit.com-itemendpoint-v1-20140812212828-java-1.18.0-rc-sources.jar", 
       "type": "source", 
-      "timestamp": "2014-08-12 03:33"
+      "timestamp": "2014-08-12 21:28"
     }, 
     {
-      "path": "urlisit.com-itemendpoint-v1-20140812033353-java-1.18.0-rc.jar.properties", 
+      "path": "urlisit.com-itemendpoint-v1-20140812212828-java-1.18.0-rc.jar.properties", 
       "type": "android.properties"
     }
   ], 
@@ -675,5 +675,5 @@
   "packagePath": "siteswrapper.cloud.model", 
   "language_version": "1.18.0-rc", 
   "id": "itemendpoint:v1", 
-  "revision": 20140812033353
+  "revision": 20140812212828
 }

@@ -8,6 +8,7 @@
 	<classpathentry kind="lib" path="/Users/url/Downloads/google-api-java-client-1.17.0-rc.zip"/>
 	<classpathentry kind="src" path="endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/deviceinfoendpoint-v1-generated-source"/>
 	<classpathentry kind="src" path="endpoint-libs/libitemendpoint-v1/itemendpoint/itemendpoint-v1-generated-source"/>
+	<classpathentry kind="src" path="endpoint-libs/liblandingendpoint-v1/landingendpoint/landingendpoint-v1-generated-source"/>
 	<classpathentry kind="src" path="endpoint-libs/libmessageEndpoint-v1/messageEndpoint/messageendpoint-v1-generated-source"/>
 	<classpathentry kind="src" path="endpoint-libs/libpageendpoint-v1/pageendpoint/pageendpoint-v1-generated-source"/>
 	<classpathentry kind="src" path="endpoint-libs/libsiteendpoint-v1/siteendpoint/siteendpoint-v1-generated-source"/>
