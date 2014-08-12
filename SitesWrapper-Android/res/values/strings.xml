@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ©®�™ⁱ -->
+<resources>
+
+    <string name="app_name">eSites™ Wrapper</string>
+    <string name="action_update">Update</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_update">Update</string>
+    <string name="menu_update_toast">Updating Configuration</string>
+    <string name="menu_update_configuration">Update Site Configuration</string>
+    <string name="menu_update_configuration_toast">Updating Configuration</string>
+    <string name="menu_new_information_item">New Information Item</string>
+    <string name="menu_new_information_item_toast">New Information Item Created</string>
+    <string name="menu_new_landing">New Landing</string>
+    <string name="menu_new_landing_toast">New Landing Created</string>
+    <string name="menu_new_page">New Page</string>
+    <string name="menu_new_page_toast">New Page Created</string>
+    <string name="field_info">Field Information</string>
+    <string name="section_1">Site Configuration</string>
+    <string name="section_2">Style</string>
+    <string name="section_3">Information Items</string>
+    <string name="section_4">Landing Pages</string>
+    <string name="section_5">About</string>
+    <string name="section_6">Products</string>
+    <string name="section_7">Services</string>
+    <string name="section_8">Contact</string>
+    <string-array name="page_titles">
+        <item>Site Conifiguration</item>
+        <item>Style</item>
+        <item>Items</item>
+        <item>Landings</item>
+        <item>About</item>
+        <item>Products</item>
+        <item>Services</item>
+        <item>Contact</item>
+    </string-array>
+    
+    <string name="site">com.urlisit.urlesites.model.Site</string>
+    <string name="site_update">Update Site</string>
+    <string name="site_remove">Remove Site</string>
+    
+    <string name="site_name_value">Value of Site.name</string>
+    <string name="site_name_label">Name</string>
+    <string name="site_name_tag">com.urlisit.urlesites.model.Site.name</string>
+    <string name="site_name_hint">Enter the name of the website</string>
+    <string name="site_name_description">This is the name which will appear at various places throughout the site, or application. For example, the name specified here will appear, as the title of the home page.</string>
+    
+    <string name="site_description_value">Value of Site.description</string>
+    <string name="site_description_label">Description</string>
+    <string name="site_description_tag">com.urlisit.urlesites.model.Site.description</string>
+    <string name="site_description_hint">Enter the description of the website</string>
+    <string name="site_description_description">The contents of the meta description tag containing keyword information. This information will be indexed by search engines.</string>
+    
+    <string name="site_look_and_feel_value">Value of Site.look_and_feel</string>
+    <string name="site_look_and_feel_label">Look and Feel</string>
+    <string name="site_look_and_feel_tag">com.urlisit.urlesites.Site.lookAndFeel</string>
+    <string name="site_look_and_feel_hint">Select the look and feel</string>
+    <string-array name="site_look_and_feel_items">
+        <item>Ghost</item>
+        <item>Koninklijke</item>
+        <item>URL IS/IT</item>
+    </string-array>
+    <string name="site_look_and_feel_description">Customize the visual design and behaviour of the website, web application, and mobile user experience.</string>
+
+    <string name="site_application_id_label">Application Id</string>
+    <string name="site_application_id_tag">com.urlisit.urlesites.model.Site.applicationId</string>
+    <string name="site_application_id_hint">Enter the GAE Application Id</string>
+    <string name="site_application_id_description">Every application deployed to Google™ App Engine is identified by a unique application ID. You can obtain the application ID via the App Engine Administration Console.</string>
+    
+    <string name="site_version_label">Version</string>
+    <string name="site_version_tag">com.urlisit.urlesites.model.Site.version</string>
+    <string name="site_version_hint">Enter the GAE Version</string>
+    <string name="site_version_description">Every application deployed to Google™ App Engine is identified by a unique version number. You can obtain the application\'s version number via the App Engine Administration Console.</string>
+    
+    <string name="site_default_page_label">Default Page</string>
+    <string name="site_default_page_tag">com.urlisit.urlesites.model.Site.defaultPage</string>
+    <string name="site_default_page_hint">Enter the default page to serve</string>
+    <string name="site_default_page_description">This is the default page that users will see when they visit the site. The value of this field must match the name field of one of the pages defined for this site.‎</string>
+
+    <string name="site_favicon_url_label">Favicon URL</string>
+    <string name="site_favicon_url_tag">com.urlisit.urlesites.model.Site.faviconUrl</string>
+    <string name="site_favicon_url_hint">The favicon.ico source file URL</string>
+    <string name="site_favicon_url_description">The URL of a favicon.ico file to be used as the favicon for the site. The favicon is retrieved from this URL and used in the site.</string>
+    
+    <string name="site_web_fonts_url_label">Google™ Web Fonts URL</string>
+    <string name="site_web_fonts_url_tag">com.urlisit.urlesites.model.Site.webFontsUrl</string>
+    <string name="site_web_fonts_url_hint">e.g.: http://fonts.googleapis.com/css?family=Open+Sans:300,400</string>
+    <string name="site_web_fonts_url_description">The URL specified in the <![CDATA[ <link href=URL /> ]]> tag generated by Google™ Web Fonts for inclusion in the site. See www/google.com/fonts for more information.</string>
+    
+    <string name="site_touch_icon_url_label">Apple Touch Icon URL</string>
+    <string name="site_touch_icon_url_tag">com.urlisit.urlesites.model.Site.touchIconUrl</string>
+    <string name="site_touch_icon_url_hint">The touch icon source file URL</string>
+    <string name="site_touch_icon_url_description">The URL of a touch an Apple touch icon for use as the touch icon of the site.</string>
+    
+    <string name="site_logo_type_label">Display logo as:</string>
+    <string name="site_logo_type_tag">com.urlisit.urlesites.model.Site.logoType</string>
+    <string name="site_logo_type_hint">Html or image</string>
+    <string name="site_logo_type_description">The type of logo to be used as the overall logo for the Managed Application. Must be one of; html or item.</string>
+    
+    <string name="site_logo_image_url_label">Logo Image URL</string>
+    <string name="site_logo_image_url_tag">com.urlisit.urlesites.model.Site.logoImageUrl</string>
+    <string name="site_logo_image_url_hint">http://gewa.gsfc.nasa.gov/clubs/zymurnauts/images/ZymLogoSmall-transparent.gif</string>
+    <string name="site_logo_image_url_description">The url of the image file to be used as the overall logo for the URLeSite.</string>
+    
+    <string name="site_logo_html_label">Logo HTML</string>
+    <string name="site_logo_html_tag">com.urlisit.urlesites.model.Site.logoHtml</string>
+    <string name="site_logo_html_hint"><Data><![CDATA[ <h1>My Logo</h1> ]]> </Data></string>
+    <string name="site_logo_html_description">The html which should be used as the overall logo for the Managed Application</string>
+    
+    <string name="site_search_enabled">Search Enabled</string>
+    <string name="site_search_enabled_tag">com.urlisit.urlesites.model.Site.searchEnabled</string>
+    <string name="site_search_enabled_hint">Search Enabled</string>
+    <string name="site_search_enabled_description">Determines if the Managed Application should provide a Google™ Custom Search box.</string>
+    
+    <string name="site_sites_theme_label">Google™ Sites Theme</string>
+    <string name="site_sites_theme_tag">com.urlisit.urlesites.model.Site.sitesTheme</string>
+    <string name="site_sites_theme_description">Customize the fonts and colors to match a Google™ Sites Theme.</string>
+    <string-array name="site_sites_theme_hint">
+        <item>Charcoal</item>
+        <item>Iceberg</item>
+        <item>Open Sky</item>
+        <item>Rounders</item>
+        <item>Slate</item>
+        <item>Simple</item>
+        <item>Ember</item>
+        <item>Branches</item>
+        <item>Notebook</item>
+        <item>Legal Pad</item>
+        <item>Blank Slate</item>
+        <item>Micro Blueprint</item>
+        <item>Micro Lite</item>
+        <item>Micro Sport</item>
+        <item>Madison</item>
+        <item>Beige and Blue</item>
+        <item>Desert Panel</item>
+        <item>Vinyl Panel</item>
+        <item>Leather Panel</item>
+        <item>Lavender Panel</item>
+        <item>Crystal Panel</item>
+        <item>Terra: Water</item>
+        <item>Terra: Ice</item>
+        <item>Terra: Ruby</item>
+        <item>Terra: Rock</item>
+    </string-array>
+
+</resources>
