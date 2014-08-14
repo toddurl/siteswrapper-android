@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.urlisit.esiteswrapper">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.urlisit.siteswrapper.android">
 	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="17"/>
 	<uses-permission android:name="android.permission.INTERNET"/>
    <permission android:name="com.urlisit.esiteswrapper.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
@@ -9,13 +9,13 @@
    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
-		<activity android:label="@string/app_name" android:name="com.urlisit.esiteswrapper.ESitesWrapper">
+		<activity android:label="@string/app_name" android:name="com.urlisit.siteswrapper.android.activities.ESitesWrapper">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN"/>
 				<category android:name="android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
-	    <service android:name="com.urlisit.esiteswrapper.gcm.GCMIntentService"/>
+	    <service android:name=".GCMIntentService"/>
         <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
@@ -27,6 +27,6 @@
             </intent-filter>
         </receiver>
     
-        <activity android:launchMode="singleTop" android:name="com.urlisit.esiteswrapper.gcm.RegisterActivity"/>
+        <activity android:launchMode="singleTop" android:name=".RegisterActivity"/>
 </application>
 </manifest>
