@@ -27,7 +27,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-public class ESitesWrapper extends FragmentActivity {
+public class SitesWrapper extends FragmentActivity {
   
   /**
    * The {@link ViewPager} that will host the section contents.

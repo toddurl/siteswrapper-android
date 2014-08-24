@@ -1,13 +1,13 @@
 {
   "files": [
     {
-      "downloadUrl": "/downloads/styleendpoint/v1/20140813024208/java/1.18.0-rc/urlisit.com-styleendpoint-v1-20140813024208-java-1.18.0-rc-sources.jar", 
-      "path": "urlisit.com-styleendpoint-v1-20140813024208-java-1.18.0-rc-sources.jar", 
+      "downloadUrl": "/downloads/styleendpoint/v1/20140821061056/java/1.18.0-rc/urlisit.com-styleendpoint-v1-20140821061056-java-1.18.0-rc-sources.jar", 
+      "path": "urlisit.com-styleendpoint-v1-20140821061056-java-1.18.0-rc-sources.jar", 
       "type": "source", 
-      "timestamp": "2014-08-13 02:42"
+      "timestamp": "2014-08-21 06:10"
     }, 
     {
-      "path": "urlisit.com-styleendpoint-v1-20140813024208-java-1.18.0-rc.jar.properties", 
+      "path": "urlisit.com-styleendpoint-v1-20140821061056-java-1.18.0-rc.jar.properties", 
       "type": "android.properties"
     }
   ], 
@@ -675,5 +675,5 @@
   "packagePath": "siteswrapper.cloud.model", 
   "language_version": "1.18.0-rc", 
   "id": "styleendpoint:v1", 
-  "revision": 20140813024208
+  "revision": 20140821061056
 }

@@ -14,5 +14,5 @@
 -keep class com.urlisit.siteswrapper.android.RegisterActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:12
--keep class com.urlisit.siteswrapper.android.activities.ESitesWrapper { <init>(...); }
+-keep class com.urlisit.siteswrapper.android.activities.SitesWrapper { <init>(...); }
 
