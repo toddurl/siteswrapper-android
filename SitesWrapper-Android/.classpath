@@ -5,7 +5,6 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="lib" path="/Users/url/Downloads/google-api-java-client-1.17.0-rc.zip"/>
 	<classpathentry kind="src" path="endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/deviceinfoendpoint-v1-generated-source"/>
 	<classpathentry kind="src" path="endpoint-libs/libitemendpoint-v1/itemendpoint/itemendpoint-v1-generated-source"/>
 	<classpathentry kind="src" path="endpoint-libs/liblandingendpoint-v1/landingendpoint/landingendpoint-v1-generated-source"/>
